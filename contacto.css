@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+/*fuentes
+acme
+exo
+macondo
+newsreader
+karma
+*/
+
+
+:root{
+	--color_fondo: radial-gradient(circle, rgba(255, 230, 1, 0.651) 0%, rgba(248, 3, 3, 0.582) 35%, rgba(0,0,0,1) 100%);
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Macondo', 'Sans Serif';
+}
+
+body{
+	width: 100%;
+    background: var(--color_fondo);
+    font-size: 2vw;
+    color: #09f744;
+}
+
+/* FORMATO DEL GRID CONTENEDOR **************************************** */
+#grid_container{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr;
+	grid-template-rows: 10%, 80%, 10%;	
+	grid-template-areas:
+	"head"
+	"formulario"
+	"foot";
+}
+
+/*
+@media (min-width:800px) {
+	#grid_container{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 10%, 80%, 10%;
+		grid-template-areas: 
+		"head head"
+		"principal secundaria"
+		"foot foot";
+	}
+}
+*/
+/* fin del formato del contenedor***************************************** */
+
+/* HEADER ************************************************* */
+header {
+	grid-area: head;
+	font-size: 3vw;
+	text-align: center;
+	padding: 0.5em;
+	background: linear-gradient(#faf06a6e, #6e1919);
+    border: 5px solid yellowgreen;
+}
+header >img{
+	width: 8%;
+	position: absolute;
+	left: 5%;
+}
+.estilo_titulo h2{
+	font-weight: bold;
+	text-shadow: 10px 10px 50px yellow;
+	color: #09f744;
+}
+.estilo_titulo h3{
+	font-style: italic;
+	text-shadow: 2px 2px red;
+    color: rgb(255, 255, 0);
+}
+/* fin del header ******************************************* */
+
+/* FORMULARIO ************************************************* */
+main{
+    min-height: 100%;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    width: 25em;
+    padding: 2em 2em;
+    box-shadow: 0 0 20px lightyellow;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size:1.5em;
+    color: rgb(255, 255, 0);
+    text-shadow: 2px 2px red;
+}
+.form_contacto{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label{
+    font-size: 1em;
+    font-weight: 600;
+    text-shadow: 0 1px black;
+    margin-bottom: 0.2em;
+}
+
+input, textarea{
+    padding: 1em 1em;
+    font-size: 0.8em;
+    border-radius: 25px;
+    margin-bottom: 1em;
+    background-color: orange;
+    border: 2px solid red;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+    color: grey;
+}
+
+.form_terminos{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form_terminos a{
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    color:gold;
+    text-shadow: 1px 1px black;
+}
+
+.form_boton{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 60%;
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: coral;
+    box-shadow: 0 0 10px yellowgreen;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color:crimson;
+}
+/* fin del formulario ******************************************* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	grid-area: foot;
+	margin-top: 10px;
+	font-size: 3vw;
+	text-align: center;
+}
