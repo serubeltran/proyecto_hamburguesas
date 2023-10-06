@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Burguer House - Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+	<link rel="icon" href="./assets/image/favicon-32x32.png">
+    <!-- en esta pagina lleva nuestra presentacion de cada uno -->
+</head>
+<body>
+    <div id="grid_container">
+		<header>
+			<img src="./assets/image/favicon_verde.png" alt="ícono hamburguesa no gif">
+			<div class="estilo_titulo">
+				<h2>THE BURGER HOUSE</h2>
+				<h3>La casa de la hamburguesa casera</h3>
+			</div>
+		</header>
+
+        <main>
+            <form id="form" action="https://formsubmit.co/bybsistemas@yahoo.com.ar" method="POST">
+                <h2>Contacto</h2>
+                <div class="form_contacto">
+                    <label for="v_nombre">Nombre completo</label>
+                    <input required type="text" name="c_nombre" id="vnombre" placeholder="Nombre">
+                    <label for="v_telefono">Teléfono</label>
+                    <input type="tel" name="c_telefono" id="vtelefono" placeholder="Teléfono">
+                    <label for="v_mail">Correo electrónico</label>
+                    <input type="email" name="c_mail" id="vmail" placeholder="Email">
+                    <label for="v_mensaje">Mensaje</label>
+                    <textarea name="c_mensaje" id="vmensaje" cols="30" rows="5" placeholder="Escriba su mensaje."></textarea>
+
+                    <div class="form_terminos">
+                        <a href="#">Política de privacidad</a>
+                        <a href="#">Términos y condiciones</a>
+                    </div>
+
+                    <div class="form_boton">
+                        <button type="submit" id="b_enviar">Enviar</button>
+                    </div>
+                    
+                    <input type="hidden" name="_next" value="http://localhost:5500">
+                    <input type="hidden" name="captcha" value="false">
+                </div>
+            </form>
+        </main>
+
+        <footer class="footer">
+			<h1>PIE DE PAGINA</h1>
+		</footer>
+    </div>
+</body>
+</html>
