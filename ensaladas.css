@@ -1,0 +1,83 @@
+.h1color-neon{ /*COLOR DEL TITULO PRINCIPAL */
+    margin-top: 5px;
+    margin-bottom: 0%;
+  color: #fff;
+  text-shadow:
+      0 0 7px #ff0000,
+      0 0 10px #f50d0d,
+      0 0 21px #ffee00,
+      0 0 42px rgb(0, 255, 255),
+      0 0 82px rgb(0, 255, 255),
+      0 0 92px rgb(0, 255, 255),
+      0 0 102px rgb(0, 255, 255),
+      0 0 151px rgb(0, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 4.2rem;
+    font-family: 'JelleeBold';
+}
+.color-fondoprincipal{/*COLOR DE LA PRIMERA PAGINA*/
+    background: rgb(252,2,2);
+    background: radial-gradient(circle, rgb(255, 230, 1) 0%, rgba(248, 3, 3, 0.808) 35%, rgba(0,0,0,1) 100%);
+    margin:0px;
+    position: calc(10%);
+}
+.h1color-neon{ /*COLOR DEL TITULO PRINCIPAL */
+    margin-top: 5px;
+    margin-bottom: 0%;
+  color: #fff;
+  text-shadow:
+      0 0 7px #ff0000,
+      0 0 10px #f50d0d,
+      0 0 21px #ffee00,
+      0 0 42px rgb(0, 255, 255),
+      0 0 82px rgb(0, 255, 255),
+      0 0 92px rgb(0, 255, 255),
+      0 0 102px rgb(0, 255, 255),
+      0 0 151px rgb(0, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 4.2rem;
+    font-family: 'JelleeBold';
+}
+
+.h2color-neon{/*COLOR DEL SUBTITULO*/
+    margin-top: 5px;
+    color: #080808;
+    text-shadow:
+        0 0 7px #ff0000,
+        0 0 10px #fff,
+        0 0 21px #ffffff,
+        0 0 42px rgb(255, 251, 0),
+        0 0 82px rgb(251, 255, 0),
+        0 0 92px rgb(0, 255, 255),
+        0 0 102px rgb(0, 255, 255),
+        0 0 151px rgb(0, 255, 255);
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: 1.8rem;
+      font-family:Jellebold;        
+    }
+    /*NAVEGADOR*/
+    .estiloLetra-nav{ 
+        font-style: Helvetica;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+   
+    .estilo-navegador {
+        color: rgb(4, 0, 255);
+        background: rgb(252,249,2);/*color de fondo del nav*/
+        background: linear-gradient(90deg, rgba(252,249,2,1) 10%, rgba(255,0,0,0.7959558823529411) 50%, rgba(252,249,2,1) 90%);
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: auto;/*margen izq desde el borde de la pantalla hacia el centro*/
+        padding-right: auto;/*margen der desde el borde de la pantalla hacia el centro*/
+        border-radius: 30px;/*redondea los bordes donde esta contenido el nav*/
+        scroll-behavior: smooth;
+        text-decoration:none;
+        transition: 0.3s;
+    }
