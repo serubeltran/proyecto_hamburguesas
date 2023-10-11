@@ -169,3 +169,39 @@
         width: 100%;
         height: 18rem;
     }
+
+
+
+
+
+
+
+
+
+    iframe{
+        width: 100%;
+        height: 19rem;
+        margin-top: auto;
+    }
+    
+    @media (max-width:800px) {
+        :root{
+            font-size: 12px;
+        }
+        main{
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        .tarjetas {
+            width: 60vw;
+            height: 80vw;
+        }
+        footer{
+            width: 100%;
+            height: 20vh;
+        }
+        iframe{
+            width: 100%;
+            height: 20vh;
+        }
+    }
