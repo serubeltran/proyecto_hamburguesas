@@ -162,9 +162,6 @@ footer {
 	height: 18rem;
 }
 
-
-
-
 iframe{
     width: 100%;
     height: 19rem;
@@ -214,8 +211,8 @@ iframe{
         flex-wrap: nowrap;
     }
     .tarjetas {
-        width: 60vw;
-        height: 80vw;
+        width: 40vw;
+        height: 60vw;
     }
     footer{
         width: 100%;
