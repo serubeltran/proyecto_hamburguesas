@@ -1,73 +1,73 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 html{/*COLOR DE FONDO*/
-    background: radial-gradient(circle, rgb(255, 230, 1) 0%, rgba(248, 3, 3, 0.808) 35%, rgba(0,0,0,1) 100%);
-    font-size: 1rem;
+	background: radial-gradient(circle, rgb(255, 230, 1) 0%, rgba(248, 3, 3, 0.808) 35%, rgba(0,0,0,1) 100%);
+	font-size: 1rem;
 }
 
 /* ************* HEADER */
 .icono1{
-    display: none;
+	display: none;
 	position: absolute;
-    border: none;
+	border: none;
 	width: 8%;
 	left: 1%;
-    top: 0;
+	top: 0;
 }
 h1{/*COLOR DEL TITULO PRINCIPAL */
-    margin: 0;
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 4rem;
-    font-family: 'JelleeBold';
-    text-shadow:
-      0 0 7px #ff0000
-      0 0 10px #f50d0d,
-      0 0 21px #ffee00,
-      0 0 151px rgb(0, 255, 255);
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 4rem;
+	font-family: 'JelleeBold';
+	text-shadow:
+	0 0 7px #ff0000
+	0 0 10px #f50d0d,
+	0 0 21px #ffee00,
+	0 0 151px rgb(0, 255, 255);
 }
 
 h2{/*COLOR DEL SUBTITULO*/
-    margin: 0 auto 0.5rem;
-    color: #080808;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 2rem;
-    font-family: 'Jellebold';        
-    text-shadow:
-        0 0 7px #ff0000,
-        0 0 10px #fff,
-        0 0 151px rgb(0, 255, 255);
+	margin: 0 auto 0.5rem;
+	color: #080808;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 2rem;
+	font-family: 'Jellebold';        
+	text-shadow:
+	0 0 7px #ff0000,
+	0 0 10px #fff,
+	0 0 151px rgb(0, 255, 255);
 }
 
 /*NAVEGADOR*/
 .nav-contenedor{
-    background: linear-gradient(90deg, rgba(252,249,2,1) 10%, rgba(255,0,0,0.7959558823529411) 50%, rgba(252,249,2,1) 90%);
-    margin-left: 10%;
-    margin-right: 10%;
-    font-style: Helvetica;
-    font-size: 1.8vw;
-    border-radius: 30px;/*redondea los bordes donde esta contenido el nav*/
-    scroll-behavior: smooth;
-    transition: 0.3s;
-    display: flex;
-    justify-content: space-around;
-    padding: 0 1rem;
+	background: linear-gradient(90deg, rgba(252,249,2,1) 10%, rgba(255,0,0,0.7959558823529411) 50%, rgba(252,249,2,1) 90%);
+	margin-left: 10%;
+	margin-right: 10%;
+	font-style: Helvetica;
+	font-size: 1.8vw;
+	border-radius: 30px;/*redondea los bordes donde esta contenido el nav*/
+	scroll-behavior: smooth;
+	transition: 0.3s;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 1rem;
 }
 a{
-    text-decoration: none;
+	text-decoration: none;
 }
 a:hover{
-    transition: 0.3s;
-    color: red;
-    background: khaki;
-    border-radius: 3px;
+	transition: 0.3s;
+	color: red;
+	background: khaki;
+	border-radius: 3px;
 }
 /****************************** fin del NAVEGADOR*/
 
@@ -154,58 +154,59 @@ a:hover{
     .tarjetas:hover .dos{
         transform: perspective(600px) rotateY(360deg);        
     }
-    footer {
+
+footer {
         grid-area: foot;
         width: 100%;
         height: 18rem;
-    }
+}
 
 
-    iframe{
+iframe{
         width: 100%;
         height: 19rem;
         margin-top: auto;
-    }
+}
     
-    @media (max-width:800px) {
-        :root{
-            font-size: 12px;
-        }
-    }
-    .icono1{
-        display: block;
-        cursor: pointer;
-        font-size: 0.1rem;
-    }
-    h1{
-        font-size: 2.2rem;
-    }
-    h2{
-        font-size: 1.7rem;
-    }
-    .nav-contenedor{
-        background: gold;
-        flex-direction: column;
-        margin-left: 0;
-        width:27%;
-        height: auto;
-        padding: 2rem 0;
-        align-items: center;
-        border-radius: 5px;
-        font-style: Helvetica;
-        font-size: 1.5rem;
-        position: fixed;
-        overflow-y: auto;
-        left: -100%;
-        transition: left 1.2s;
-        box-shadow: 5px 5px 5px grey;
-    }
-    .nav_menu_visible{
-        left: 0;
-    }
-    a{
-        padding: 0.5rem 0;
-    }        
+@media (max-width:800px) {
+	:root{
+	    font-size: 12px;
+	}
+	}
+	.icono1{
+		display: block;
+		cursor: pointer;
+		font-size: 0.1rem;
+	}
+	h1{
+		font-size: 2.2rem;
+	}
+	h2{
+		font-size: 1.7rem;
+	}
+	.nav-contenedor{
+		background: gold;
+		flex-direction: column;
+		margin-left: 0;
+		width:27%;
+		height: auto;
+		padding: 2rem 0;
+		align-items: center;
+		border-radius: 5px;
+		font-style: Helvetica;
+		font-size: 1.5rem;
+		position: fixed;
+		overflow-y: auto;
+		left: -100%;
+		transition: left 1.2s;
+		box-shadow: 5px 5px 5px grey;
+	}
+	.nav_menu_visible{
+		left: 0;
+	}
+	a{
+		padding: 0.5rem 0;
+	}        
         main{
             flex-direction: column;
             flex-wrap: nowrap;
@@ -222,4 +223,4 @@ a:hover{
             width: 100%;
             height: 20vh;
         }
-    }
+}
