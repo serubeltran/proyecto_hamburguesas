@@ -167,59 +167,59 @@ iframe{
         margin-top: auto;
 }
     
+/* ************** Media para cuando se achica la pantalla a menos de 800px */
 @media (max-width:800px) {
-	:root{
-	    font-size: 12px;
-	}
-	}
-	.icono1{
-		display: block;
-		cursor: pointer;
-		font-size: 0.1rem;
-	}
-	h1{
-		font-size: 2.2rem;
-	}
-	h2{
-		font-size: 1.7rem;
-	}
-	.nav-contenedor{
-		background: gold;
-		flex-direction: column;
-		margin-left: 0;
-		width:27%;
-		height: auto;
-		padding: 2rem 0;
-		align-items: center;
-		border-radius: 5px;
-		font-style: Helvetica;
-		font-size: 1.5rem;
-		position: fixed;
-		overflow-y: auto;
-		left: -100%;
-		transition: left 1.2s;
-		box-shadow: 5px 5px 5px grey;
-	}
-	.nav_menu_visible{
-		left: 0;
-	}
-	a{
-		padding: 0.5rem 0;
-	}        
-        main{
-            flex-direction: column;
-            flex-wrap: nowrap;
-        }
-        .tarjetas {
-            width: 40vw;
-            height: 60vw;
-        }
-        footer{
-            width: 100%;
-            height: 20vh;
-        }
-        iframe{
-            width: 100%;
-            height: 20vh;
-        }
+    :root{
+        font-size: 12px;
+    }
+    .icono1{
+        display: block;
+        cursor: pointer;
+        font-size: 0.1rem;
+    }
+    h1{
+        font-size: 2.2rem;
+    }
+    h2{
+        font-size: 1.7rem;
+    }
+    .nav-contenedor{
+        background: gold;
+        flex-direction: column;
+        margin-left: 0;
+        width:27%;
+        height: auto;
+        padding: 2rem 0;
+        align-items: center;
+        border-radius: 5px;
+        font-style: Helvetica;
+        font-size: 1.5rem;
+        position: fixed;
+        overflow-y: auto;
+        left: -100%;
+        transition: left 1.2s;
+        box-shadow: 5px 5px 5px grey;
+    }
+    .nav_menu_visible{
+        left: 0;
+    }
+    a{
+        padding: 0.5rem 0;
+    }
+    main{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .tarjetas {
+        width: 40vw;
+        height: 60vw;
+    }
+    footer{
+        width: 100%;
+        height: 20vh;
+    }
+    iframe{
+        width: 100%;
+        height: 20vh;
+    }
 }
