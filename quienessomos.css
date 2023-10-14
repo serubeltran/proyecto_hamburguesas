@@ -279,8 +279,8 @@ h2{
 
 body{
     background-image: 
-    background-position; center
-    background-repeat;
+    background-position; container
+    :background-repeat;
     background-size: 250vh;
 }
 .content-all{
@@ -342,3 +342,4 @@ body{
     }
 }
 
+}
