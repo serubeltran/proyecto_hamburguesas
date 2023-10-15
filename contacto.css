@@ -1,3 +1,6 @@
+@import url(head-menu.css);
+@import url(footer-iframe.css);
+
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 /*fuentes
@@ -33,69 +36,6 @@ body{
     background: var(--color_fondo);
     color: #09f744;
 }
-
-/* ************* HEADER */
-.icono1{
-	display: none;
-	position: absolute;
-	border: none;
-	width: 8%;
-	left: 1%;
-	top: 0;
-}
-h1{/*COLOR DEL TITULO PRINCIPAL */
-	margin: 0;
-	color: #fff;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: 400;
-	font-size: 4rem;
-	font-family: 'JelleeBold';
-	text-shadow:
-	0 0 7px #ff0000
-	0 0 10px #f50d0d,
-	0 0 21px #ffee00,
-	0 0 151px rgb(0, 255, 255);
-}
-
-h2{/*COLOR DEL SUBTITULO*/
-	margin: 0 auto 0.5rem;
-	color: #080808;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: 800;
-	font-size: 2rem;
-	font-family: 'Jellebold';        
-	text-shadow:
-	0 0 7px #ff0000,
-	0 0 10px #fff,
-	0 0 151px rgb(0, 255, 255);
-}
-
-/*NAVEGADOR*/
-.nav-contenedor{
-	background: linear-gradient(90deg, rgba(252,249,2,1) 10%, rgba(255,0,0,0.7959558823529411) 50%, rgba(252,249,2,1) 90%);
-	margin-left: 10%;
-	margin-right: 10%;
-	font-style: Helvetica;
-	font-size: 1.8vw;
-	border-radius: 30px;/*redondea los bordes donde esta contenido el nav*/
-	scroll-behavior: smooth;
-	transition: 0.3s;
-	display: flex;
-	justify-content: space-around;
-	padding: 0 1rem;
-}
-a{
-	text-decoration: none;
-}
-a:hover{
-	transition: 0.3s;
-	color: red;
-	background: khaki;
-	border-radius: 3px;
-}
-/****************************** fin del NAVEGADOR*/
 
 
 /* FORMULARIO ************************************************* */
@@ -185,16 +125,6 @@ button:hover{
 }
 /* fin del formulario ******************************************* */
 
-footer {
-	width: 100%;
-	height: 18rem;
-}
-
-iframe{
-    width: 100%;
-    height: 19rem;
-    margin-top: auto;
-}
 
 /* ************** Media para cuando se achica la pantalla a menos de 800px */
 @media (max-width:800px) {

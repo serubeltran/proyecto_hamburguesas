@@ -28,7 +28,7 @@ body{
 }
 
 /* FORMATO DEL GRID CONTENEDOR **************************************** */
-#grid_container{
+#grid_container{ /* Valores para celular ***************/
 	display: grid;
 	width: 100%;
 	grid-template-columns: 1fr;
@@ -59,26 +59,42 @@ body{
 /* HEADER ************************************************* */
 header {
 	grid-area: head;
-	font-size: 3vw;
 	text-align: center;
-	padding: 0.5em;
-	background: linear-gradient(#faf06a6e, #6e1919);
-	border: 5px solid yellowgreen;
 }
-header >img{
-	width: 8%;
+.estilo_titulo img{
+    display: block;
 	position: absolute;
-	left: 5%;
+    border: none;
+	width: 8%;
+	left: 1%;
+    top: 0;
+}
+.estilo_titulo h1{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 4rem;
+    font-family: 'JelleeBold';
+    text-shadow:
+      0 0 7px #ff0000
+      0 0 10px #f50d0d,
+      0 0 21px #ffee00,
+      0 0 151px rgb(0, 255, 255);
 }
 .estilo_titulo h2{
-	font-weight: bold;
-	text-shadow: 10px 10px 50px yellow;
-	color: #09f744;
-}
-.estilo_titulo h3{
-	font-style: italic;
-	text-shadow: 2px 2px red;
-    color: rgb(255, 255, 0);
+    margin: 0 auto 0.5rem;
+    color: #080808;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Jellebold';        
+    text-shadow:
+        0 0 7px #ff0000,
+        0 0 10px #fff,
+        0 0 151px rgb(0, 255, 255);
 }
 /* fin del header ******************************************* */
 
