@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');*/
 
 /*fuentes
 acme
@@ -11,7 +11,7 @@ karma
 
 :root{
 	--color_fondo: radial-gradient(circle, rgba(255, 230, 1, 0.651) 0%, rgba(248, 3, 3, 0.582) 35%, rgba(0,0,0,1) 100%);
-    font-size: 15px;
+    /*font-size: 15px;*/
 }
 
 
@@ -19,7 +19,7 @@ karma
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Macondo', 'Sans Serif';
+	/*font-family: 'Macondo', 'Sans Serif';*/
 }
 
 html{/*COLOR DE FONDO*/
@@ -200,8 +200,7 @@ main{
 
 footer {
 	width: 100%;
-	height: 19rem;
-	margin-top: auto;
+	height: 18rem;
 }
 
 iframe{
@@ -235,7 +234,7 @@ iframe{
         align-items: center;
         border-radius: 5px;
         font-style: Helvetica;
-        font-size: 1.5rem;
+        font-size: 1rem;
         position: fixed;
         overflow-y: auto;
         left: -100%;
