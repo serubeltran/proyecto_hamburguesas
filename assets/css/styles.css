@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Tilt+Neon&display=swap');
+
+/*fuentes
+acme
+exo
+macondo
+newsreader
+karma
+*/
+
+
+:root{
+	--color_fondo: radial-gradient(circle, rgba(255, 230, 1, 0.651) 0%, rgba(248, 3, 3, 0.582) 35%, rgba(0,0,0,1) 100%);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Calibri;
+}
+
+body{
+	width: 100%;
+    background: var(--color_fondo);
+    font-size: 2.5vw;
+    color: #09f744;
+}
+
+/* FORMATO DEL GRID CONTENEDOR **************************************** */
+#grid_container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 10%, 60%, 30%;
+	grid-template-areas: 
+	"head head"
+	"principal secundaria"
+	"foot foot";
+}
+
+
+/* HEADER ************************************************* */
+header {
+	grid-area: head;
+	text-align: center;
+}
+.estilo_titulo img{
+    display: block;
+	position: absolute;
+    border: none;
+	width: 8%;
+	left: 1%;
+    top: 0;
+}
+.estilo_titulo h1{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 4vw;
+    font-family: 'Tilt Neon';
+    text-shadow:
+      0 0 7px #00ff37,
+      0 0 10px #00ff37,
+      0 0 40px #00ff37,
+      0 0 60px #00ff37;
+}
+.estilo_titulo h2{
+    margin: 0 auto 0.5rem;
+    color:black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2vw;
+    font-family: 'Tilt Neon';        
+    text-shadow:
+    0 0 7px red,
+    0 0 10px red,
+    0 0 40px #00ff37,
+    0 0 60px red;
+}
+/* fin del header ******************************************* */
+
+
+.menu_izquierda {
+	grid-area: principal;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+.partes_hamburguesa{
+	position: relative;
+	transition: 0.5s;
+}
+.partes_hamburguesa img{
+	margin: auto;
+	max-width: 70%;
+	display: grid;
+}
+.partes_hamburguesa a {
+	position: absolute;
+	color: #09f744;
+	font-family: Calibri;
+	text-decoration: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu_derecha {
+	grid-area: secundaria;
+}
+.bebidas{
+	position: relative;
+	height: auto;
+	margin-left: 20%;
+	margin-right: 20%;
+	display: flex;
+	align-items: center;
+}
+.bebidas img {
+	margin: auto;
+	width: 100%;
+}
+.bebidas a{
+	position: absolute;
+	color: #09f744;
+	text-decoration: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.partes_hamburguesa:hover, .bebidas:hover{
+	transition: 0.5s;
+	transform: scale(1.2);
+	z-index: 2;
+	filter: brightness(1.5);
+	text-shadow: 3px 3px 5px red;
+	/*text-rendering: optimizeLegibility;*/
+	cursor: pointer;
+}
+
+footer{
+	grid-area: foot;
+	height: 38vh;
+}
+
+/* ************** Media para cuando se achica la pantalla a menos de 800px */
+@media (max-width:800px) {
+	body{
+        font-size: 12px;
+    }
+    .estilo_titulo h1{
+        font-size: 2rem;
+    }
+    .estilo_titulo h2{
+        font-size: 1.25rem;
+    }
+	main, aside{
+		font-size: 4vw;
+	}
+	#grid_container{
+		display: grid;
+		width: 100%;
+		grid-template-columns: 1fr;
+		grid-template-rows: 10%, 70%, auto;	
+		grid-template-areas:
+		"head"
+		"principal"
+		"secundaria"
+		"foot";
+	}
+}
+/* fin del formato del contenedor***************************************** */
