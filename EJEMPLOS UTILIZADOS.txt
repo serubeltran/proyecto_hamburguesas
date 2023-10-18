@@ -1,9 +1,0 @@
-crear links con imagenes:
-https://www.youtube.com/watch?v=6g_-Q09iiks
-
-cambiar imagen con hover:
-https://www.youtube.com/watch?v=ZRIhvtbdQWM&t=10s
-
-quitar las lineas a los links y cambiar de color la fuente
-https://www.youtube.com/watch?v=3mNS5Qzqvfc
-
