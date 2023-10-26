@@ -104,3 +104,29 @@ button:hover{
     background-color:crimson;
 }
 /* fin del formulario ******************************************* */
+
+/* diálogo gracias ************************/
+#mGracias{
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    border-color:coral;
+    background-color:lemonchiffon;
+    box-shadow: 0 0 0 100vmax rgba(187, 187, 186, 0.705);
+    font-size: 1.2rem;
+    transition: transform 2s;
+}
+#bGracias{
+    margin-top: 1em;
+    width: 40%;
+    padding: 5px;
+    font-size: 0.7em;
+    border-radius: 10px;
+    background-color: coral;
+    box-shadow: 0 0 5px yellowgreen;
+    cursor: pointer;
+    transition: 0.5s;
+}
+/* fin del diálogo gracias ****************/
