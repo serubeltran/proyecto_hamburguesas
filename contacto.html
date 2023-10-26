@@ -28,17 +28,17 @@
            
     </header>    
     <main>
-        <form id="form" action="https://formsubmit.co/bybsistemas@yahoo.com.ar" method="POST">
+        <form id="idForm" action="https://formspree.io/f/mbjvwpqv" method="POST">
             <h2>Contacto</h2>
             <div class="form_contacto">
                 <label for="v_nombre">Nombre completo</label>
-                <input required type="text" name="c_nombre" id="vnombre" placeholder="Nombre">
+                <input required type="text" name="c_nombre" id="v_nombre" placeholder="Nombre">
                 <label for="v_telefono">Teléfono</label>
-                <input type="tel" name="c_telefono" id="vtelefono" placeholder="Teléfono">
+                <input required type="tel" name="c_telefono" id="v_telefono" placeholder="Teléfono">
                 <label for="v_mail">Correo electrónico</label>
-                <input type="email" name="c_mail" id="vmail" placeholder="Email">
+                <input required type="email" name="c_mail" id="v_mail" placeholder="Email">
                 <label for="v_mensaje">Mensaje</label>
-                <textarea name="c_mensaje" id="vmensaje" cols="30" rows="5" placeholder="Escriba su mensaje."></textarea>
+                <textarea required name="c_mensaje" id="v_mensaje" cols="30" rows="5" placeholder="Escriba su mensaje."></textarea>
 
                 <div class="form_terminos">
                     <a href="#">Política de privacidad</a>
@@ -48,11 +48,13 @@
                 <div class="form_boton">
                     <button type="submit" id="b_enviar">Enviar</button>
                 </div>
-                
-                <input type="hidden" name="_next" value="http://localhost:5500">
-                <input type="hidden" name="captcha" value="false">
             </div>
         </form>
+	<dialog id="mGracias">
+            <span>¡Gracias por comunicarte!</span><br>
+            <span>¡Pronto te responderemos!</span>
+            <button id="bGracias" >Cerrar</button>
+        </dialog>
     </main>
 
     <footer>
@@ -60,6 +62,7 @@
     </footer>
     </div>
 
-    <script src="./assets/js/menu.js"></script>    
+	<script src="./assets/js/menu.js"></script>
+	<script src="./assets/js/contacto.js"></script>
 </body>
 </html>
