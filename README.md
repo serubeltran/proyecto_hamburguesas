@@ -11,8 +11,7 @@ Equipo Burger House
 
 INTEGRANTES:
 
-Marian de los Angeles Chirinos Noguera (Representante), Sergio Rubén Beltrán, Elvio Villegas y Roberto Oro Marcos. 
-La página fue desarrollada entre todos a medida que íbamos avanzando fuimos modificando según el criterio de cada uno y participándonos cada idea.
+Marian de los Angeles Chirinos Noguera (Representante), Sergio Rubén Beltrán, Elvio Villegas y Roberto Oro Marcos. La página fue desarrollada entre todos a medida que íbamos avanzando fuimos modificando según el criterio de cada uno y participándonos cada una de las ideas.
 
 TÍTULO DEL PROYECTO:
 
@@ -40,7 +39,7 @@ Como planificación inicial teníamos el realizar una página web correspondient
 
 ESTRUCTURA:
 
-Como estructura tenemos inicio, hamburguesas, papas fritas, postres, bebidas, quienes somos y contacto.
+Como estructura tenemos en el menú, inicio, hamburguesas, papas fritas, postres, bebidas, quienes somos y contacto.
 
 UBICACIÓN Y DESCRIPCIÓN BREVE DE LA ANIMACIÓN:
 
