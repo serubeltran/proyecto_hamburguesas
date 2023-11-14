@@ -49,6 +49,6 @@ Brevemente podemos indicar que en nuestra página web se encontraran con animaci
 08/11:
 Para poder utilizar una API, la única que tenía datos como para poder agregar en la página es la de:
 random-data-api.com
-En ese sitio hay una API con datos de cervezas, para lo que tuve que crear un archivo "cervezas.js", como así también modificar el archivo "bebidas.html".
+En ese sitio hay una API con datos de cervezas, para lo que tuvimos que crear un archivo "cervezas.js", como así también modificar el archivo "bebidas.html".
 El vínculo para utilizar la api es:
 https://random-data-api.com/api/v2/beers?size=6
