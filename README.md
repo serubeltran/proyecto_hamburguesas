@@ -23,7 +23,7 @@ Es una página web en la que ofrecemos a nuestros distintos clientes, hamburgues
 
 LINK DEL TPO:
 
-https://tp1-grupo25.netlify.app/
+https://tpo1-grupo25.netlify.app/
 
 LINK A CARPETA DE GITHUB O SIMILAR CON LOS ARCHIVOS DEL TPO:
 
